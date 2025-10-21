@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+}
+/* Import pirate font */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+body {
+    font-family: 'Pirata One', cursive; /* Pirate font */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB 0%, #4682B4 50%, #2F4F4F 100%); /* Ocean to deep sea gradient */
+    background-image: url('one_piece_bg.jpg'); /* Optional: Add a One Piece background image (e.g., sea or map) */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF; /* White text for contrast */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(139, 0, 0, 0.8); /* Dark red like Luffy's vest */
+    border-bottom: 5px solid #FFD700; /* Gold border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #FFD700; /* Gold */
+    text-shadow: 2px 2px 4px #000;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #F0E68C; /* Khaki for subtitle */
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #8B0000; /* Red button */
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #8B0000;
+    transform: scale(1.1); /* Pirate flair */
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent parchment */
+    border: 3px solid #8B0000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+th {
+    background-color: #FFD700; /* Gold header */
+    color: #8B0000;
+    padding: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #8B0000;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    color: #333; /* Dark text for readability */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(173, 216, 230, 0.5); /* Light blue stripes like waves */
+}
+
+tr:hover {
+    background-color: rgba(255, 215, 0, 0.3); /* Gold hover for treasure feel */
+}
+
+a {
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+/* Responsive for mobile pirates */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}
+/* Pirate Form Styling */
+.pirate-form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Parchment background */
+    border: 3px solid #FFD700; /* Gold border */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    font-family: 'Pirata One', cursive;
+}
+
+.pirate-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8B0000; /* Red for labels */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pirate-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #4682B4; /* Blue border */
+    border-radius: 5px;
+    background-color: #F0F8FF; /* Light blue like the sea */
+    color: #333;
+    font-size: 1em;
+}
+
+.pirate-form input:focus {
+    border-color: #FFD700; /* Gold on focus */
+    outline: none;
+    box-shadow: 0 0 5px #FFD700;
+}
+
+.pirate-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #8B0000; /* Red button */
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.pirate-form button:hover {
+    background-color: #FFD700;
+    color: #8B0000;
+    transform: scale(1.05); /* Treasure chest opening effect */
+}
+
+/* Responsive for mobile pirates */
+@media (max-width: 768px) {
+    .pirate-form {
+        width: 90%;
+    }
+}
+/* Insights Section Styling */
+.insights-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Parchment background */
+    border: 3px solid #FFD700; /* Gold border */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    font-family: 'Pirata One', cursive;
+}
+
+.insights-section h2 {
+    color: #8B0000; /* Red headings */
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #000;
+    border-bottom: 2px solid #FFD700; /* Gold underline */
+    padding-bottom: 10px;
+}
+
+.pirate-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+.pirate-list li {
+    background-color: rgba(173, 216, 230, 0.5); /* Light blue like waves */
+    margin: 10px 0;
+    padding: 15px;
+    border: 2px solid #4682B4; /* Blue border */
+    border-radius: 10px;
+    color: #333;
+    font-size: 1.1em;
+    transition: all 0.3s;
+}
+
+.pirate-list li:hover {
+    background-color: rgba(255, 215, 0, 0.3); /* Gold hover for treasure feel */
+    transform: translateY(-5px); /* Lift like opening a chest */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pirate-list li strong {
+    color: #8B0000; /* Red for emphasis */
+}
+
+.pirate-list li em {
+    color: #FFD700; /* Gold for titles */
+}
+
+/* Responsive for mobile pirates */
+@media (max-width: 768px) {
+    .insights-section {
+        width: 95%;
+    }
+    .insights-section h2 {
+        font-size: 1.5em;
+    }
+    .pirate-list li {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
+header img {
+    border: 3px solid #FFD700; /* Gold border for treasure feel */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+header img:hover {
+    transform: scale(1.1); /* Slight zoom on hover, like a magical artifact */
+}
+
+/* Responsive: Smaller logo on mobile */
+@media (max-width: 768px) {
+    header img {
+        width: 150px;
+    }
+}
